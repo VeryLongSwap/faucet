@@ -1,66 +1,13 @@
-## Foundry
+## ERC20 Faucet on testnet
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+anyone can mint on mint function
 
-Foundry consists of:
+## USDC
+- Astar zkEVM
+0x20f668062799d344ec79721a8d13D7Ff60eFedC9
+https://zkatana.explorer.startale.com/address/0x20f668062799d344ec79721a8d13D7Ff60eFedC9
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## ASTR
+- Astar zkEVM
+0x033375d876D17eaD31D8ACd6b415c0C7b6C50EfD
+https://zkatana.explorer.startale.com/address/0x033375d876D17eaD31D8ACd6b415c0C7b6C50EfD

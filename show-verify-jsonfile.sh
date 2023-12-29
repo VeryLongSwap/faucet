@@ -1,1 +1,1 @@
-forge verify-contract --show-standard-json-input $CONTRACT_ADDRESS src/ERC20Faucet.sol:ERC20Faucet > flatten.json
+forge verify-contract --show-standard-json-input $CONTRACT_ADDRESS src/ASTR.sol:ASTR > astr-flatten.json
