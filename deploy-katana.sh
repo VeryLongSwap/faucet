@@ -1,0 +1,1 @@
+forge create --rpc-url zkkatana --legacy --private-key $PRIVATE_KEY src/ERC20Faucet.sol:ERC20Faucet --constructor-args "USDC" "USDC"
