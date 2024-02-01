@@ -10,7 +10,6 @@ abstract contract ERC20Faucet is ERC20, ERC20Burnable {
     }
 
     function mint(address to, uint256 value) public returns (bool) {
-        require(value <= 100 ether, "dont be greedy");
         _mint(to, value);
         return true;
     }
